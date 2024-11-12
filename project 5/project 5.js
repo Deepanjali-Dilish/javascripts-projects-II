@@ -7,7 +7,7 @@ addTask.addEventListener('click', function(){
     task.classList.add('task');
 
     let li = document.createElement('li');
-    li.innerText = '${inputTask.value}';
+    li.innerText = `${inputTask.value}`;
     task.appendChild(li);
 
     let checkButton = document.createElement("button");
@@ -38,3 +38,6 @@ addTask.addEventListener('click', function(){
     });
 
 });
+
+
+
